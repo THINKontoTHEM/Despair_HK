@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A View on Despair (Hong Kong Edition) </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">A View on Despair</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#desktop-nav">Home</a></li>
+          <li><a href="#stories">Stories</a></li>
+          <li><a href="#landscape">Landscape</a></li>
+          <li><a href="#data">Data</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">A View on Despair</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#desktop-nav" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#stories" onclick="toggleMenu()">Stories</a></li>
+          <li><a href="#landscape" onclick="toggleMenu()">Landscape</a></li>
+          <li><a href="#data" onclick="toggleMenu()">Data</a></li>
+                </div>
+      </div>
+    </nav>
+    <section id="home">
+      <div class="section__text">
+        <h1 class="title">!TRIGGER WARMMING!</h1>
+        <p class="section__text__p0">This story contains content about suicide.</p>
+        <p class="section__text__info">Are you thinking about suicide or are you in emotional distress <br>
+          or do you know someone who is thinking about suicide or is in emotional distress, <br>
+          please contact your national suicide prevention organisation.</p>
+        <p class="section__text__p3">
+          HK Suicide Prevention Services: <i>+852 2382 0000 (24/7)</i><br>
+          HK Samaritans Hong Kong: <i>+852 2896 0000 (24/7)</i><br>
+          CN Lifeline China: <i>400-821-1215 | www.lifelinechina.org</i><br>
+          INT Befrienders Worldwide: <i>www.befrienders.org</i></p>
+        <p class="section__text__p0">
+          Help is available. You are not alone.
+        <div class="btn-container">
+          <button class="btn btn-color-2"
+            onclick="location.href='https://www.mind.org.hk/find-help-now/'"
+          >
+            in Hong Kong
+          </button>
+          <button class="btn btn-color-1" 
+          onclick="location.href='https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines'"
+          >
+            Other Places
+        </button>
+        
+        </div>
+      </div>
+    </section>
+    <section id="stories">
+      <h1 class="title">Stories</h1>
+      <p class="section__text__p1">Get To Know the Story Behind</p>
+      <div class="section-container">
+        <div class="text-container">
+          <p>
+            <br /><br />
+            This project was inspired by <a href="https://www.studioterp.nl/a-view-on-despair-a-datavisualization-project-by-studio-terp/"><b>A View on Despair</b></a>. where the author used calm and artistic visuals of landscapes to present data, offering a sense of solace and reflection. In Hong Kong, suicide is also a critical issue that deserves attention. In 2023, the estimated suicide rate was 13.6 per 100,000 people. While this hasn’t worsened significantly compared to the previous year, it remains relatively high.
+            <br /><br />
+            We’ve all been through a difficult few years with COVID-19, compounded by the stresses of international tensions and an economic downturn. Occasionally, we hear news of people who chose to end their lives, and it’s heartbreaking.
+            <br /><br />
+            From a personal perspective, the past few years have also been incredibly challenging. Growing up in a flourishing environment only to face an economic downturn during a critical transition into adulthood has been overwhelming. It’s a period naturally filled with uncertainty and self-doubt, and I know many of my peers may share similar feelings of struggle and suppression.
+            <br /><br />
+            While we are often taught to be self-reliant, seeking help from trusted friends or professionals during tough times can make a significant difference. Sometimes, the seemingly insurmountable problems in our lives might find alternative solutions when viewed from a different perspective.
+            <br /><br />
+            I hope the serene landscapes in this visualization can bring some comfort to your heart. This world is vast, and we are but tiny stars within it. Many things that trouble us may not be as significant as they seem. Take a moment to slow down. There is no hurdle in life that cannot be overcome.
+            </p>
+        </div>
+      </div>
+    </section>
+    <section id="landscape"class="auto-height">
+      
+      <h1 class="title">A View on Despair</h1>
+      <p class="section__text__p1">Let's Dive into this Landscape</p>
+      <p class="section__text__p3">
+      <br><br><br>
+      please scroll with regard<br>
+      ↓
+      </p>
+     <div class="pic_container_full">
+       <img src="./assets/a_view_on_dispair.jpg" alt="Full width image">
+     </div>
+     <h2 class="stories-sub-title">Legend</h2>
+     <div class="legend-container">
+      <img src="./assets/images.jpg" alt="Legend Icon">
+      <p class="legend-text">This is a legend description.</p>
+    </div>
+
+     <p class="section__text__p1">Some content related to lengend..</p>
+     <h2 class="stories-sub-title">By Gender</h2>
+      <div class="article-container">
+        
+        <div class="article-container">
+          <article>
+            <h3>MALE</h3>
+            <img src="./assets/male.jpg" alt="Male">
+            <p>Some content related to males...</p>
+          </article>
+          <article>
+            <h3>FEMALE</h3>
+            <img src="./assets/female.jpg" alt="Female">
+            <p>Some content related to females...</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="data"class="auto-height">
+      <h1 class="title">Data</h1>
+      <p class="section__text__p1">And Insights into It</p>
+
+      <div class="pic_container_half">
+        <h2 class="stories-sub-title">By Year</h2>
+        <img src="./assets/by_year.png" alt="By Year">
+        
+      </div>
+      <p class="section__text__p1">Some content related to lengend..</p>
+      <div class="pic_container_full">
+        <h2 class="stories-sub-title">By Method</h2>
+        <img src="./assets/by_method.jpg" alt="By Method">
+        <p class="section__text__p1">Some content related to lengend..</p>
+      </div>
+      <div class="pic_container_full">
+        <h2 class="stories-sub-title">By Age</h2>
+        <img src="./assets/by_age.jpg" alt="By Age">
+        <p class="section__text__p1">Some content related to lengend..</p>
+      </div>
+    </section>
+    <section id="contact">
+      
+      <h1 class="title">A View on Despair</h1>
+      <p class="section__text__p1">or you can turn it into hope...</p>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:zhongjiatot@gmail.com">Send a message to me</a></p>
+        </div>
+      
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#desktop-nav">Home</a></li>
+            <li><a href="#stories">Stories</a></li>
+            <li><a href="#landscape">Landscape</a></li>
+            <li><a href="#data">Data</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 THINKontoTHEM. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
