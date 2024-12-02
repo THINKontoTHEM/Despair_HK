@@ -169,6 +169,7 @@ section {
 section.auto-height {
   height: auto; /* 根据内容自动调整高度 */
   min-height: fit-content; /* 根据内容最小高度自动调整 */
+  margin-bottom: 10rem; 
 }
 
 /* 用于处理内容区的布局 */
@@ -400,8 +401,9 @@ article .icon {
 }
 
 .legend-container img {
-  width: 5rem; /* 控制图片宽度 */
-  height: auto; /* 保持图片纵横比 */
+  * 控制图片宽度 */
+  width: 5rem; 
+  Height: auto; //* 保持图片纵横比 */
   margin-bottom: 0.5rem; /* 图片与文字之间的间距 */
 }
 
